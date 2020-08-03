@@ -10,7 +10,6 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     private int number = 0; //初期数字
-    private String resultNumber; //結果の数字
     private final String FIZZ = "Fizz";
     private final String BUZZ = "Buzz";
     private final String FIZZBUZZ = "FizzBuzz"; //Fizz or Buzz or FizzBuzz
