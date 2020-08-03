@@ -11,7 +11,9 @@ public class MainActivity extends AppCompatActivity {
 
     private int number = 0; //初期数字
     private String resultNumber; //結果の数字
-    private final String FIZZ = "fizz", BUZZ = "buzz", FIZZBUZZ = "FizzBuzz"; //Fizz or Buzz or FizzBuzz
+    private final String FIZZ = "fizz";
+    private final String BUZZ = "buzz";
+    private final String FIZZBUZZ = "fizz"; //Fizz or Buzz or FizzBuzz
     private Button incrementButton; //+1するボタン
     private Button zeroButton; //結果を０に戻すボタン
     private TextView resultTextView; //結果を表示するテキスト
@@ -44,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         // フィールドの初期化
         incrementButton = findViewById(R.id.increment_button); //+1するボタン
