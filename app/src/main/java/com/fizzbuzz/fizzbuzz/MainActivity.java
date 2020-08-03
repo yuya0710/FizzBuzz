@@ -11,9 +11,9 @@ public class MainActivity extends AppCompatActivity {
 
     private int number = 0; //初期数字
     private String resultNumber; //結果の数字
-    private final String FIZZ = "fizz";
-    private final String BUZZ = "buzz";
-    private final String FIZZBUZZ = "fizz"; //Fizz or Buzz or FizzBuzz
+    private final String FIZZ = "Fizz";
+    private final String BUZZ = "Buzz";
+    private final String FIZZBUZZ = "FizzBuzz"; //Fizz or Buzz or FizzBuzz
     private Button incrementButton; //+1するボタン
     private Button zeroButton; //結果を０に戻すボタン
     private TextView resultTextView; //結果を表示するテキスト
