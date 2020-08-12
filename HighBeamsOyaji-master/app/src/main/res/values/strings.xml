@@ -1,7 +1,0 @@
-<resources>
-
-    <string name="app_name">HelloSDLAndroid</string>
-    <string name="hello_world">Hello SDL!</string>
-    <string name="action_settings">Settings</string>
-
-</resources>
